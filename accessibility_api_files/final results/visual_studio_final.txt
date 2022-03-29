@@ -1,0 +1,170 @@
+Shortcut Flag:  True
+
+
+Up Move Summary: 
+
+Percentile at 1 move:  0.6759564585327802
+Percentile at 2 moves:  0.9225791582455767
+Percentile at 3 moves:  0.9469382689784774
+Percentile at 4 moves:  0.9637627202779846
+Percentile at 5 moves:  0.9825195901145268
+Hamm score at 95th percentile:  (4, 0.9637627202779846)
+Hamm score at 99th percentile:  (6, 0.991933482253661)
+Expteced up moves:  0.8876892529163564
+
+
+
+Down Move Summary: 
+
+Percentile at 1 move:  0.7037017338581002
+Percentile at 2 moves:  0.7999326312803603
+Percentile at 3 moves:  0.8679395808956495
+Percentile at 4 moves:  0.9032372442647946
+Percentile at 5 moves:  0.9753749601106265
+Hamm score at 95th percentile:  (5, 0.9753749601106265)
+Hamm score at 99th percentile:  (7, 0.996932950395348)
+Expteced down moves:  1.2114314080062407
+
+
+
+Level Move Summary: 
+
+Percentile at 1 move:  0.5890862674183597
+Percentile at 2 move:  0.6226997127965109
+Percentile at 3 move:  0.6565790873311349
+Percentile at 4 move:  0.6978512924157003
+Percentile at 5 moves:  0.7240187214126156
+Hamm score at 95th percentile:  (16, 0.9548452292309327)
+Hamm score at 99th percentile:  (23, 0.9928553699960996)
+Expteced level moves:  4.119561748750134
+
+
+
+Ups_plus_downs Move Summary: 
+
+Percentile at 1 move:  0.6259617771159097
+Percentile at 2 move:  0.6524483211005923
+Percentile at 3 move:  0.6988263659894338
+Percentile at 4 move:  0.7620111335673511
+Percentile at 5 moves:  0.8285466085168245
+Hamm score at 95th percentile:  (7, 0.9514590646385137)
+Hamm score at 99th percentile:  (9, 0.9920753111371131)
+Expteced Ups_plus_downs moves:  2.099120660922597
+
+
+
+Total Move Summary: 
+
+Percentile at 1 move:  0.34210899549693297
+Percentile at 2 move:  0.5323547140375138
+Percentile at 3 move:  0.5894940254582847
+Percentile at 4 move:  0.61156614544552
+Percentile at 5 moves:  0.6335496223805979
+Hamm score at 80th percentile:  (16, 0.817501684217991)
+Hamm score at 95th percentile:  (23, 0.9526291529269937)
+Hamm score at 99th percentile:  (31, 0.9934758713612029)
+Expteced total moves:  7.139807821862923
+
+
+
+Total Nodes:  368
+Valid Destinations:  238
+
+Culprit Nodes: 
+
+137
+138
+142
+144
+146
+Multiplier of Sigma:  2.5
+Expected moves after removing culprits:  6.712120388982455
+Culprit Nodes: 
+
+Multiplier of Sigma:  3
+Expected moves after removing culprits:  7.139807821862925
+
+
+Shortcut Flag:  False
+
+
+Up Move Summary: 
+
+Percentile at 1 move:  0.32110059213558845
+Percentile at 2 moves:  0.49461050242881965
+Percentile at 3 moves:  0.8215615360068078
+Percentile at 4 moves:  0.8657412332021417
+Percentile at 5 moves:  0.9390667659468852
+Hamm score at 95th percentile:  (6, 0.9558203028046663)
+Hamm score at 99th percentile:  (7, 0.9938659007906963)
+Expteced up moves:  2.5431159805694428
+
+
+
+Down Move Summary: 
+
+Percentile at 1 move:  0.32110059213558845
+Percentile at 2 moves:  0.49461050242881965
+Percentile at 3 moves:  0.8215615360068078
+Percentile at 4 moves:  0.8657412332021417
+Percentile at 5 moves:  0.9390667659468852
+Hamm score at 95th percentile:  (6, 0.9558203028046663)
+Hamm score at 99th percentile:  (7, 0.9938659007906963)
+Expteced down moves:  2.5431159805694428
+
+
+
+Level Move Summary: 
+
+Percentile at 1 move:  0.022550792468886287
+Percentile at 2 move:  0.0520334716164947
+Percentile at 3 move:  0.08807573662376343
+Percentile at 4 move:  0.13163493245399427
+Percentile at 5 moves:  0.1785271070453498
+Hamm score at 95th percentile:  (26, 0.9593837535014005)
+Hamm score at 99th percentile:  (31, 0.9911711520051057)
+Expteced level moves:  12.736641492039857
+
+
+
+Ups_plus_downs Move Summary: 
+
+Percentile at 1 move:  0.07024075452965997
+Percentile at 2 move:  0.25628479239797186
+Percentile at 3 move:  0.2952877353473035
+Percentile at 4 move:  0.39878736304648443
+Percentile at 5 moves:  0.5606850335070738
+Hamm score at 95th percentile:  (10, 0.9898592348331738)
+Hamm score at 99th percentile:  (11, 0.999858171116548)
+Expteced Ups_plus_downs moves:  5.086231961138886
+
+
+
+Total Move Summary: 
+
+Percentile at 1 move:  0.005637698117221572
+Percentile at 2 move:  0.010956281246675886
+Percentile at 3 move:  0.02037017338581002
+Percentile at 4 move:  0.03579406446122753
+Percentile at 5 moves:  0.05823848526752473
+Hamm score at 80th percentile:  (25, 0.8195404744176152)
+Hamm score at 95th percentile:  (32, 0.9517959082367125)
+Hamm score at 99th percentile:  (38, 0.9908343084069071)
+Expteced total moves:  17.822873453178747
+
+
+
+Total Nodes:  368
+Valid Destinations:  238
+
+Culprit Nodes: 
+
+30
+31
+32
+Multiplier of Sigma:  2.5
+Expected moves after removing culprits:  17.638567196337192
+Culprit Nodes: 
+
+Multiplier of Sigma:  3
+Expected moves after removing culprits:  17.82287345317874

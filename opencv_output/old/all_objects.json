@@ -1,0 +1,1439 @@
+{
+    "compos": [
+        {
+            "class": "Background",
+            "column_max": 799,
+            "column_min": 0,
+            "coordinates": [
+                0,
+                0,
+                799,
+                662,
+                799,
+                662
+            ],
+            "height": 662,
+            "id": 0,
+            "row_max": 662,
+            "row_min": 0,
+            "type": "UIED_output",
+            "width": 799
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/0.jpg",
+            "column_max": 647,
+            "column_min": 628,
+            "coordinates": [
+                628,
+                4,
+                647,
+                22,
+                19,
+                18
+            ],
+            "height": 18,
+            "id": 1,
+            "row_max": 22,
+            "row_min": 4,
+            "type": "UIED_output",
+            "width": 19
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/1.jpg",
+            "column_max": 28,
+            "column_min": 16,
+            "coordinates": [
+                16,
+                8,
+                28,
+                20,
+                12,
+                12
+            ],
+            "height": 12,
+            "id": 2,
+            "row_max": 20,
+            "row_min": 8,
+            "type": "UIED_output",
+            "width": 12
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/2.jpg",
+            "column_max": 50,
+            "column_min": 38,
+            "coordinates": [
+                38,
+                8,
+                50,
+                19,
+                12,
+                11
+            ],
+            "height": 11,
+            "id": 3,
+            "row_max": 19,
+            "row_min": 8,
+            "type": "UIED_output",
+            "width": 12
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/3.jpg",
+            "column_max": 77,
+            "column_min": 66,
+            "coordinates": [
+                66,
+                8,
+                77,
+                19,
+                11,
+                11
+            ],
+            "height": 11,
+            "id": 4,
+            "row_max": 19,
+            "row_min": 8,
+            "type": "UIED_output",
+            "width": 11
+        },
+        {
+            "class": "Text",
+            "clip_path": "data/output/capture_15/clips/Text/4.jpg",
+            "column_max": 404,
+            "column_min": 355,
+            "coordinates": [
+                355,
+                6,
+                404,
+                17,
+                49,
+                11
+            ],
+            "height": 11,
+            "id": 5,
+            "row_max": 17,
+            "row_min": 6,
+            "type": "UIED_output",
+            "width": 49
+        },
+        {
+            "class": "Text",
+            "clip_path": "data/output/capture_15/clips/Text/5.jpg",
+            "column_max": 443,
+            "column_min": 415,
+            "coordinates": [
+                415,
+                7,
+                443,
+                18,
+                28,
+                11
+            ],
+            "height": 11,
+            "id": 6,
+            "row_max": 18,
+            "row_min": 7,
+            "type": "UIED_output",
+            "width": 28
+        },
+        {
+            "class": "Text",
+            "clip_path": "data/output/capture_15/clips/Text/6.jpg",
+            "column_max": 620,
+            "column_min": 545,
+            "coordinates": [
+                545,
+                6,
+                620,
+                17,
+                75,
+                11
+            ],
+            "height": 11,
+            "id": 7,
+            "row_max": 17,
+            "row_min": 6,
+            "type": "UIED_output",
+            "width": 75
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/7.jpg",
+            "column_max": 678,
+            "column_min": 668,
+            "coordinates": [
+                668,
+                8,
+                678,
+                19,
+                10,
+                11
+            ],
+            "height": 11,
+            "id": 8,
+            "row_max": 19,
+            "row_min": 8,
+            "type": "UIED_output",
+            "width": 10
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/8.jpg",
+            "column_max": 748,
+            "column_min": 740,
+            "coordinates": [
+                740,
+                8,
+                748,
+                17,
+                8,
+                9
+            ],
+            "height": 9,
+            "id": 9,
+            "row_max": 17,
+            "row_min": 8,
+            "type": "UIED_output",
+            "width": 8
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/9.jpg",
+            "column_max": 784,
+            "column_min": 775,
+            "coordinates": [
+                775,
+                8,
+                784,
+                17,
+                9,
+                9
+            ],
+            "height": 9,
+            "id": 10,
+            "row_max": 17,
+            "row_min": 8,
+            "type": "UIED_output",
+            "width": 9
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/10.jpg",
+            "column_max": 798,
+            "column_min": 785,
+            "coordinates": [
+                785,
+                123,
+                798,
+                643,
+                13,
+                520
+            ],
+            "height": 520,
+            "id": 11,
+            "row_max": 643,
+            "row_min": 123,
+            "type": "UIED_output",
+            "width": 13
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/11.jpg",
+            "column_max": 706,
+            "column_min": 78,
+            "coordinates": [
+                78,
+                135,
+                706,
+                643,
+                628,
+                508
+            ],
+            "height": 508,
+            "id": 12,
+            "row_max": 643,
+            "row_min": 135,
+            "type": "UIED_output",
+            "width": 628
+        },
+        {
+            "class": "Text",
+            "clip_path": "data/output/capture_15/clips/Text/12.jpg",
+            "column_max": 798,
+            "column_min": 0,
+            "coordinates": [
+                0,
+                27,
+                798,
+                120,
+                798,
+                93
+            ],
+            "height": 93,
+            "id": 13,
+            "row_max": 120,
+            "row_min": 27,
+            "type": "UIED_output",
+            "width": 798
+        },
+        {
+            "class": "Text",
+            "clip_path": "data/output/capture_15/clips/Text/13.jpg",
+            "column_max": 507,
+            "column_min": 459,
+            "coordinates": [
+                459,
+                60,
+                507,
+                95,
+                48,
+                35
+            ],
+            "height": 35,
+            "id": 14,
+            "row_max": 95,
+            "row_min": 60,
+            "type": "UIED_output",
+            "width": 48
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_15/clips/ImageView/14.jpg",
+            "column_max": 796,
+            "column_min": 786,
+            "coordinates": [
+                786,
+                444,
+                796,
+                630,
+                10,
+                186
+            ],
+            "height": 186,
+            "id": 15,
+            "row_max": 630,
+            "row_min": 444,
+            "type": "UIED_output",
+            "width": 10
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_16/clips/ImageView/1.jpg",
+            "column_max": 28,
+            "column_min": 16,
+            "coordinates": [
+                16,
+                8,
+                28,
+                13,
+                12,
+                5
+            ],
+            "height": 5,
+            "id": 16,
+            "row_max": 13,
+            "row_min": 8,
+            "type": "UIED_output",
+            "width": 12
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_16/clips/ImageView/3.jpg",
+            "column_max": 77,
+            "column_min": 66,
+            "coordinates": [
+                66,
+                8,
+                77,
+                13,
+                11,
+                5
+            ],
+            "height": 5,
+            "id": 17,
+            "row_max": 13,
+            "row_min": 8,
+            "type": "UIED_output",
+            "width": 11
+        },
+        {
+            "class": "Text",
+            "clip_path": "data/output/capture_16/clips/Text/6.jpg",
+            "column_max": 620,
+            "column_min": 545,
+            "coordinates": [
+                545,
+                6,
+                620,
+                23,
+                75,
+                17
+            ],
+            "height": 17,
+            "id": 18,
+            "row_max": 23,
+            "row_min": 6,
+            "type": "UIED_output",
+            "width": 75
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_16/clips/ImageView/10.jpg",
+            "column_max": 175,
+            "column_min": 0,
+            "coordinates": [
+                0,
+                27,
+                175,
+                120,
+                175,
+                93
+            ],
+            "height": 93,
+            "id": 19,
+            "row_max": 120,
+            "row_min": 27,
+            "type": "UIED_output",
+            "width": 175
+        },
+        {
+            "class": "TextView",
+            "clip_path": "data/output/capture_16/clips/TextView/11.jpg",
+            "column_max": 780,
+            "column_min": 166,
+            "coordinates": [
+                166,
+                50,
+                780,
+                119,
+                614,
+                69
+            ],
+            "height": 69,
+            "id": 20,
+            "row_max": 119,
+            "row_min": 50,
+            "type": "UIED_output",
+            "width": 614
+        },
+        {
+            "class": "ImageView",
+            "clip_path": "data/output/capture_16/clips/ImageView/12.jpg",
+            "column_max": 798,
+            "column_min": 782,
+            "coordinates": [
+                782,
+                50,
+                798,
+                120,
+                16,
+                70
+            ],
+            "height": 70,
+            "id": 21,
+            "row_max": 120,
+            "row_min": 50,
+            "type": "UIED_output",
+            "width": 16
+        },
+        {
+            "column_max": 672,
+            "column_min": 627,
+            "coordinates": [
+                627,
+                65,
+                672,
+                76,
+                45,
+                11
+            ],
+            "id": 22,
+            "row_max": 76,
+            "row_min": 65,
+            "spell_corrected_text": "AaBbCcL",
+            "text": "AaBbCcL",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 754,
+            "column_min": 721,
+            "coordinates": [
+                721,
+                73,
+                754,
+                83,
+                33,
+                10
+            ],
+            "id": 23,
+            "row_max": 83,
+            "row_min": 73,
+            "spell_corrected_text": "Replace",
+            "text": "Replace",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 562,
+            "column_min": 517,
+            "coordinates": [
+                517,
+                66,
+                562,
+                75,
+                45,
+                9
+            ],
+            "id": 24,
+            "row_max": 75,
+            "row_min": 66,
+            "spell_corrected_text": "AaBbCcDc",
+            "text": "AaBbCcDc",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 617,
+            "column_min": 571,
+            "coordinates": [
+                571,
+                65,
+                617,
+                77,
+                46,
+                12
+            ],
+            "id": 25,
+            "row_max": 77,
+            "row_min": 65,
+            "spell_corrected_text": "Abc",
+            "text": "AaBbc",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 504,
+            "column_min": 459,
+            "coordinates": [
+                459,
+                66,
+                504,
+                76,
+                45,
+                10
+            ],
+            "id": 26,
+            "row_max": 76,
+            "row_min": 66,
+            "spell_corrected_text": "AaBbCcDe",
+            "text": "AaBbCcDe",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 668,
+            "column_min": 628,
+            "coordinates": [
+                628,
+                83,
+                668,
+                95,
+                40,
+                12
+            ],
+            "id": 27,
+            "row_max": 95,
+            "row_min": 83,
+            "spell_corrected_text": "Heading 2",
+            "text": "Heading 2",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 611,
+            "column_min": 571,
+            "coordinates": [
+                571,
+                83,
+                611,
+                95,
+                40,
+                12
+            ],
+            "id": 28,
+            "row_max": 95,
+            "row_min": 83,
+            "spell_corrected_text": "Heading",
+            "text": "Heading",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 288,
+            "column_min": 241,
+            "coordinates": [
+                241,
+                32,
+                288,
+                43,
+                47,
+                11
+            ],
+            "id": 29,
+            "row_max": 43,
+            "row_min": 32,
+            "spell_corrected_text": "References",
+            "text": "References",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 740,
+            "column_min": 721,
+            "coordinates": [
+                721,
+                55,
+                740,
+                66,
+                19,
+                11
+            ],
+            "id": 30,
+            "row_max": 66,
+            "row_min": 55,
+            "spell_corrected_text": "Find",
+            "text": "Find",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 45,
+            "column_min": 6,
+            "coordinates": [
+                6,
+                109,
+                45,
+                120,
+                39,
+                11
+            ],
+            "id": 31,
+            "row_max": 120,
+            "row_min": 109,
+            "spell_corrected_text": "Clapboard",
+            "text": "Clipboard",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 208,
+            "column_min": 179,
+            "coordinates": [
+                179,
+                210,
+                208,
+                219,
+                29,
+                9
+            ],
+            "id": 32,
+            "row_max": 219,
+            "row_min": 210,
+            "spell_corrected_text": "world!",
+            "text": "world!",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 394,
+            "column_min": 359,
+            "coordinates": [
+                359,
+                33,
+                394,
+                43,
+                35,
+                10
+            ],
+            "id": 33,
+            "row_max": 43,
+            "row_min": 33,
+            "spell_corrected_text": "Review:",
+            "text": "Review:",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 96,
+            "column_min": 72,
+            "coordinates": [
+                72,
+                61,
+                96,
+                71,
+                24,
+                10
+            ],
+            "id": 34,
+            "row_max": 71,
+            "row_min": 61,
+            "spell_corrected_text": "(Calibri",
+            "text": "(Calibri",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 55,
+            "column_min": -2,
+            "coordinates": [
+                -2,
+                645,
+                55,
+                665,
+                57,
+                20
+            ],
+            "id": 35,
+            "row_max": 665,
+            "row_min": 645,
+            "spell_corrected_text": "Page 1 of 1",
+            "text": "Page 1 of 1",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 224,
+            "column_min": 191,
+            "coordinates": [
+                191,
+                32,
+                224,
+                43,
+                33,
+                11
+            ],
+            "id": 36,
+            "row_max": 43,
+            "row_min": 32,
+            "spell_corrected_text": "Layout",
+            "text": "Layout",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 174,
+            "column_min": 143,
+            "coordinates": [
+                143,
+                32,
+                174,
+                42,
+                31,
+                10
+            ],
+            "id": 37,
+            "row_max": 42,
+            "row_min": 32,
+            "spell_corrected_text": "Design",
+            "text": "Design",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 746,
+            "column_min": 717,
+            "coordinates": [
+                717,
+                108,
+                746,
+                120,
+                29,
+                12
+            ],
+            "id": 38,
+            "row_max": 120,
+            "row_min": 108,
+            "spell_corrected_text": "Editing",
+            "text": "Editing",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 374,
+            "column_min": 334,
+            "coordinates": [
+                334,
+                110,
+                374,
+                119,
+                40,
+                9
+            ],
+            "id": 39,
+            "row_max": 119,
+            "row_min": 110,
+            "spell_corrected_text": "Paragraph",
+            "text": "Paragraph",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 170,
+            "column_min": 147,
+            "coordinates": [
+                147,
+                110,
+                170,
+                119,
+                23,
+                9
+            ],
+            "id": 40,
+            "row_max": 119,
+            "row_min": 110,
+            "spell_corrected_text": "Font",
+            "text": "Font",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 96,
+            "column_min": 60,
+            "coordinates": [
+                60,
+                647,
+                96,
+                659,
+                36,
+                12
+            ],
+            "id": 41,
+            "row_max": 659,
+            "row_min": 647,
+            "spell_corrected_text": "Words",
+            "text": "Owords",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 83,
+            "column_min": 56,
+            "coordinates": [
+                56,
+                33,
+                83,
+                43,
+                27,
+                10
+            ],
+            "id": 42,
+            "row_max": 43,
+            "row_min": 33,
+            "spell_corrected_text": "Home.",
+            "text": "Home.",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 565,
+            "column_min": 514,
+            "coordinates": [
+                514,
+                84,
+                565,
+                96,
+                51,
+                12
+            ],
+            "id": 43,
+            "row_max": 96,
+            "row_min": 84,
+            "spell_corrected_text": "To Space.",
+            "text": "TNo Spac.",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 343,
+            "column_min": 304,
+            "coordinates": [
+                304,
+                33,
+                343,
+                42,
+                39,
+                9
+            ],
+            "id": 44,
+            "row_max": 42,
+            "row_min": 33,
+            "spell_corrected_text": "Mailing",
+            "text": "Mailings",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 471,
+            "column_min": 448,
+            "coordinates": [
+                448,
+                31,
+                471,
+                43,
+                23,
+                12
+            ],
+            "id": 45,
+            "row_max": 43,
+            "row_min": 31,
+            "spell_corrected_text": "Help",
+            "text": "Help",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 588,
+            "column_min": 513,
+            "coordinates": [
+                513,
+                33,
+                588,
+                43,
+                75,
+                10
+            ],
+            "id": 46,
+            "row_max": 43,
+            "row_min": 33,
+            "spell_corrected_text": "Tell me what you w",
+            "text": "Tell me what you w",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 782,
+            "column_min": 755,
+            "coordinates": [
+                755,
+                33,
+                782,
+                43,
+                27,
+                10
+            ],
+            "id": 47,
+            "row_max": 43,
+            "row_min": 33,
+            "spell_corrected_text": "Share",
+            "text": "Share",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 503,
+            "column_min": 466,
+            "coordinates": [
+                466,
+                83,
+                503,
+                95,
+                37,
+                12
+            ],
+            "id": 48,
+            "row_max": 95,
+            "row_min": 83,
+            "spell_corrected_text": "Normal",
+            "text": "Normal",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 748,
+            "column_min": 720,
+            "coordinates": [
+                720,
+                90,
+                748,
+                100,
+                28,
+                10
+            ],
+            "id": 49,
+            "row_max": 100,
+            "row_min": 90,
+            "spell_corrected_text": "Select -",
+            "text": "Select -",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 628,
+            "column_min": 595,
+            "coordinates": [
+                595,
+                34,
+                628,
+                42,
+                33,
+                8
+            ],
+            "id": 50,
+            "row_max": 42,
+            "row_min": 34,
+            "spell_corrected_text": "ant to do",
+            "text": "ant to do",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 175,
+            "column_min": 151,
+            "coordinates": [
+                151,
+                210,
+                175,
+                220,
+                24,
+                10
+            ],
+            "id": 51,
+            "row_max": 220,
+            "row_min": 210,
+            "spell_corrected_text": "Hello",
+            "text": "Hello",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 579,
+            "column_min": 554,
+            "coordinates": [
+                554,
+                110,
+                579,
+                120,
+                25,
+                10
+            ],
+            "id": 52,
+            "row_max": 120,
+            "row_min": 110,
+            "spell_corrected_text": "Styles",
+            "text": "Styles",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 127,
+            "column_min": 100,
+            "coordinates": [
+                100,
+                32,
+                127,
+                43,
+                27,
+                11
+            ],
+            "id": 53,
+            "row_max": 43,
+            "row_min": 32,
+            "spell_corrected_text": "Insert",
+            "text": "Insert",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 124,
+            "column_min": 100,
+            "coordinates": [
+                100,
+                60,
+                124,
+                71,
+                24,
+                11
+            ],
+            "id": 54,
+            "row_max": 71,
+            "row_min": 60,
+            "spell_corrected_text": "(Body)",
+            "text": "(Body)",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 33,
+            "column_min": 11,
+            "coordinates": [
+                11,
+                82,
+                33,
+                92,
+                22,
+                10
+            ],
+            "id": 55,
+            "row_max": 92,
+            "row_min": 82,
+            "spell_corrected_text": "Paste",
+            "text": "Paste",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 434,
+            "column_min": 408,
+            "coordinates": [
+                408,
+                32,
+                434,
+                42,
+                26,
+                10
+            ],
+            "id": 56,
+            "row_max": 42,
+            "row_min": 32,
+            "spell_corrected_text": "View",
+            "text": "View",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 784,
+            "column_min": 759,
+            "coordinates": [
+                759,
+                648,
+                784,
+                658,
+                25,
+                10
+            ],
+            "id": 57,
+            "row_max": 658,
+            "row_min": 648,
+            "spell_corrected_text": "100%",
+            "text": "100%",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 31,
+            "column_min": 14,
+            "coordinates": [
+                14,
+                31,
+                31,
+                43,
+                17,
+                12
+            ],
+            "id": 58,
+            "row_max": 43,
+            "row_min": 31,
+            "spell_corrected_text": "File",
+            "text": "File",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 583,
+            "column_min": 545,
+            "coordinates": [
+                545,
+                6,
+                583,
+                18,
+                38,
+                12
+            ],
+            "id": 59,
+            "row_max": 18,
+            "row_min": 6,
+            "spell_corrected_text": "Cameron",
+            "text": "Cameron",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 123,
+            "column_min": 72,
+            "coordinates": [
+                72,
+                61,
+                123,
+                71,
+                51,
+                10
+            ],
+            "id": 60,
+            "row_max": 71,
+            "row_min": 61,
+            "spell_corrected_text": "(Calibri (Body)",
+            "text": "(Calibri (Body)",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 607,
+            "column_min": 568,
+            "coordinates": [
+                568,
+                33,
+                607,
+                43,
+                39,
+                10
+            ],
+            "id": 61,
+            "row_max": 43,
+            "row_min": 33,
+            "spell_corrected_text": "you want'",
+            "text": "you want'",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 564,
+            "column_min": 514,
+            "coordinates": [
+                514,
+                32,
+                564,
+                43,
+                50,
+                11
+            ],
+            "id": 62,
+            "row_max": 43,
+            "row_min": 32,
+            "spell_corrected_text": "Tell me what",
+            "text": "Tell me what",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 617,
+            "column_min": 587,
+            "coordinates": [
+                587,
+                6,
+                617,
+                20,
+                30,
+                14
+            ],
+            "id": 63,
+            "row_max": 20,
+            "row_min": 6,
+            "spell_corrected_text": "Firstweek",
+            "text": "Sirsteek",
+            "type": "TEXT"
+        },
+        {
+            "column_max": 469,
+            "column_min": 455,
+            "coordinates": [
+                455,
+                43,
+                469,
+                59,
+                14,
+                16
+            ],
+            "id": 64,
+            "row_max": 59,
+            "row_min": 43,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 430,
+            "column_min": 414,
+            "coordinates": [
+                414,
+                43,
+                430,
+                59,
+                16,
+                16
+            ],
+            "id": 65,
+            "row_max": 59,
+            "row_min": 43,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 384,
+            "column_min": 370,
+            "coordinates": [
+                370,
+                43,
+                384,
+                59,
+                14,
+                16
+            ],
+            "id": 66,
+            "row_max": 59,
+            "row_min": 43,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 333,
+            "column_min": 317,
+            "coordinates": [
+                317,
+                43,
+                333,
+                59,
+                16,
+                16
+            ],
+            "id": 67,
+            "row_max": 59,
+            "row_min": 43,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 272,
+            "column_min": 258,
+            "coordinates": [
+                258,
+                43,
+                272,
+                59,
+                14,
+                16
+            ],
+            "id": 68,
+            "row_max": 59,
+            "row_min": 43,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 216,
+            "column_min": 202,
+            "coordinates": [
+                202,
+                43,
+                216,
+                59,
+                14,
+                16
+            ],
+            "id": 69,
+            "row_max": 59,
+            "row_min": 43,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 167,
+            "column_min": 153,
+            "coordinates": [
+                153,
+                43,
+                167,
+                59,
+                14,
+                16
+            ],
+            "id": 70,
+            "row_max": 59,
+            "row_min": 43,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 121,
+            "column_min": 107,
+            "coordinates": [
+                107,
+                43,
+                121,
+                59,
+                14,
+                16
+            ],
+            "id": 71,
+            "row_max": 59,
+            "row_min": 43,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 31,
+            "column_min": 16,
+            "coordinates": [
+                16,
+                43,
+                31,
+                59,
+                15,
+                16
+            ],
+            "id": 72,
+            "row_max": 59,
+            "row_min": 43,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 783,
+            "column_min": 766,
+            "coordinates": [
+                766,
+                37,
+                783,
+                53,
+                17,
+                16
+            ],
+            "id": 73,
+            "row_max": 53,
+            "row_min": 37,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 620,
+            "column_min": 606,
+            "coordinates": [
+                606,
+                37,
+                620,
+                53,
+                14,
+                16
+            ],
+            "id": 74,
+            "row_max": 53,
+            "row_min": 37,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 94,
+            "column_min": 41,
+            "coordinates": [
+                41,
+                12,
+                94,
+                59,
+                53,
+                47
+            ],
+            "id": 75,
+            "row_max": 59,
+            "row_min": 12,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 30,
+            "column_min": 16,
+            "coordinates": [
+                16,
+                12,
+                30,
+                28,
+                14,
+                16
+            ],
+            "id": 76,
+            "row_max": 28,
+            "row_min": 12,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 613,
+            "column_min": 595,
+            "coordinates": [
+                595,
+                11,
+                613,
+                27,
+                18,
+                16
+            ],
+            "id": 77,
+            "row_max": 27,
+            "row_min": 11,
+            "type": "OpenCV_Output"
+        },
+        {
+            "column_max": 211,
+            "column_min": 208,
+            "coordinates": [
+                208,
+                207,
+                211,
+                224,
+                3,
+                17
+            ],
+            "id": 78,
+            "row_max": 224,
+            "row_min": 207,
+            "type": "OpenCV_Output"
+        }
+    ]
+}

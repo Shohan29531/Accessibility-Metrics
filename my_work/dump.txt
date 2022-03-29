@@ -1,0 +1,74 @@
+# black_img = cv2.imread('..' + '/mac_work/gui_update/black.png')
+
+# black_img = cv2.resize(black_img, dsize)
+
+# for key in cumulative_dom.keys():
+
+#     children = cumulative_dom[str(key)]
+
+#     i = 1
+#     for child in children:
+#         current_rect = id_to_rect[str(child)]
+
+
+#         cv2.rectangle(black_img,(current_rect[0],current_rect[1]),(current_rect[2],current_rect[3]),(0,255,0),1)
+
+#         font = cv2.FONT_HERSHEY_SIMPLEX
+#         org = (math.floor((current_rect[0]+current_rect[2])/2),math.floor((current_rect[1]+current_rect[3])/2))
+#         #org=(diff_rect[0],diff_rect[1])
+
+#         fontScale = 0.30
+#         color = (255, 255, 255)
+#         thickness = 1
+
+#         image = cv2.putText(black_img, str(i), org, font,
+#                         fontScale, color, thickness, cv2.LINE_AA)
+
+#         i += 1
+
+
+# black_img = cv2.resize(black_img, dsize)
+
+
+
+# cv2.imwrite(output_folder + "ordered_rects.png", black_img)
+
+
+# if accessibility_api_flag:
+
+#     black_img = cv2.imread('..' + '/mac_work/gui_update/black.png')
+
+#     black_img = cv2.resize(black_img, dsize)
+
+#     for key in cumulative_dom.keys():
+
+#         children = cumulative_dom[str(key)]
+
+
+#         for child in children:
+#             current_rect = id_to_rect[str(child)]
+
+
+#             cv2.rectangle(black_img,(current_rect[0],current_rect[1]),(current_rect[2],current_rect[3]),(0,255,0),1)
+
+#             font = cv2.FONT_HERSHEY_SIMPLEX
+#             org = (math.floor((current_rect[0]+current_rect[2])/2),math.floor((current_rect[1]+current_rect[3])/2))
+#             #org=(diff_rect[0],diff_rect[1])
+
+#             fontScale = 0.30
+#             color = (255, 255, 255)
+#             thickness = 1
+
+#             image = cv2.putText(black_img, str(child), org, font,
+#                             fontScale, color, thickness, cv2.LINE_AA)
+
+
+#     black_img = cv2.resize(black_img, dsize)
+
+
+
+#     cv2.imwrite(output_folder + "updated_rects.png", black_img)
+
+
+
+# print(child_to_parent_map)

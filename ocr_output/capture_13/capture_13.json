@@ -1,0 +1,229 @@
+{
+    "compos": [
+        {
+            "column_max": 175,
+            "column_min": 123,
+            "id": 1,
+            "row_max": 74,
+            "row_min": 63,
+            "spell_corrected_text": "Ctrl+Shift+N",
+            "text": "Ctrl+Shift+N"
+        },
+        {
+            "column_max": 488,
+            "column_min": 458,
+            "id": 2,
+            "row_max": 483,
+            "row_min": 474,
+            "spell_corrected_text": "11, Col 1",
+            "text": "11, Col 1"
+        },
+        {
+            "column_max": 69,
+            "column_min": 40,
+            "id": 3,
+            "row_max": 129,
+            "row_min": 118,
+            "spell_corrected_text": "save As.",
+            "text": "save As."
+        },
+        {
+            "column_max": 61,
+            "column_min": 34,
+            "id": 4,
+            "row_max": 93,
+            "row_min": 83,
+            "spell_corrected_text": "\u2018Open.",
+            "text": "\u2018Open."
+        },
+        {
+            "column_max": 177,
+            "column_min": 147,
+            "id": 5,
+            "row_max": 110,
+            "row_min": 99,
+            "spell_corrected_text": "Tries.",
+            "text": "Ctrles."
+        },
+        {
+            "column_max": 116,
+            "column_min": 75,
+            "id": 6,
+            "row_max": 18,
+            "row_min": 6,
+            "spell_corrected_text": "- Noted",
+            "text": "- Notepad"
+        },
+        {
+            "column_max": 178,
+            "column_min": 143,
+            "id": 7,
+            "row_max": 57,
+            "row_min": 45,
+            "spell_corrected_text": "ren",
+            "text": "ren"
+        },
+        {
+            "column_max": 175,
+            "column_min": 122,
+            "id": 8,
+            "row_max": 128,
+            "row_min": 118,
+            "spell_corrected_text": "Ctrl+Shift+S",
+            "text": "Ctrl+Shift+S"
+        },
+        {
+            "column_max": 93,
+            "column_min": 33,
+            "id": 9,
+            "row_max": 75,
+            "row_min": 64,
+            "spell_corrected_text": "New Window",
+            "text": "New Window"
+        },
+        {
+            "column_max": 61,
+            "column_min": 33,
+            "id": 10,
+            "row_max": 170,
+            "row_min": 159,
+            "spell_corrected_text": "Print...",
+            "text": "Print..."
+        },
+        {
+            "column_max": 670,
+            "column_min": 601,
+            "id": 11,
+            "row_max": 483,
+            "row_min": 474,
+            "spell_corrected_text": "Windows (RL)",
+            "text": "Windows (CRLF)"
+        },
+        {
+            "column_max": 177,
+            "column_min": 146,
+            "id": 12,
+            "row_max": 169,
+            "row_min": 160,
+            "spell_corrected_text": "Ctrl+P",
+            "text": "Ctrl+P"
+        },
+        {
+            "column_max": 177,
+            "column_min": 145,
+            "id": 13,
+            "row_max": 93,
+            "row_min": 82,
+            "spell_corrected_text": "Ctrl+O",
+            "text": "Ctrl+O"
+        },
+        {
+            "column_max": 90,
+            "column_min": 35,
+            "id": 14,
+            "row_max": 154,
+            "row_min": 141,
+            "spell_corrected_text": "Page Setup...",
+            "text": "Page Setup..."
+        },
+        {
+            "column_max": 69,
+            "column_min": 28,
+            "id": 15,
+            "row_max": 17,
+            "row_min": 5,
+            "spell_corrected_text": "| *Untitled",
+            "text": "| *Untitled"
+        },
+        {
+            "column_max": 128,
+            "column_min": 105,
+            "id": 16,
+            "row_max": 37,
+            "row_min": 28,
+            "spell_corrected_text": "View",
+            "text": "View"
+        },
+        {
+            "column_max": 162,
+            "column_min": 138,
+            "id": 17,
+            "row_max": 38,
+            "row_min": 27,
+            "spell_corrected_text": "\u2018Help",
+            "text": "\u2018Help"
+        },
+        {
+            "column_max": 724,
+            "column_min": 697,
+            "id": 18,
+            "row_max": 483,
+            "row_min": 474,
+            "spell_corrected_text": "UTF-8",
+            "text": "UTF-8"
+        },
+        {
+            "column_max": 581,
+            "column_min": 560,
+            "id": 19,
+            "row_max": 483,
+            "row_min": 474,
+            "spell_corrected_text": "100%",
+            "text": "100%"
+        },
+        {
+            "column_max": 98,
+            "column_min": 63,
+            "id": 20,
+            "row_max": 37,
+            "row_min": 27,
+            "spell_corrected_text": "Format",
+            "text": "Format"
+        },
+        {
+            "column_max": 28,
+            "column_min": 9,
+            "id": 21,
+            "row_max": 37,
+            "row_min": 27,
+            "spell_corrected_text": "File",
+            "text": "File"
+        },
+        {
+            "column_max": 54,
+            "column_min": 33,
+            "id": 22,
+            "row_max": 110,
+            "row_min": 101,
+            "spell_corrected_text": "Save",
+            "text": "Save"
+        },
+        {
+            "column_max": 52,
+            "column_min": 32,
+            "id": 23,
+            "row_max": 195,
+            "row_min": 183,
+            "spell_corrected_text": "Exit",
+            "text": "Exit"
+        },
+        {
+            "column_max": 55,
+            "column_min": 35,
+            "id": 24,
+            "row_max": 36,
+            "row_min": 27,
+            "spell_corrected_text": "\u2018Edit",
+            "text": "\u2018Edit"
+        },
+        {
+            "column_max": 57,
+            "column_min": 31,
+            "id": 25,
+            "row_max": 57,
+            "row_min": 46,
+            "spell_corrected_text": "ay",
+            "text": "ay"
+        }
+    ]
+}

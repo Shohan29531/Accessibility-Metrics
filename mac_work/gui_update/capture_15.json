@@ -1,0 +1,186 @@
+{
+    "img": {
+        "shape": [
+            662,
+            799,
+            3
+        ]
+    },
+    "compos": [
+        {
+            "width": 799,
+            "row_min": 0,
+            "row_max": 662,
+            "column_max": 799,
+            "column_min": 0,
+            "class": "Background",
+            "id": 0,
+            "height": 662
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/0.jpg",
+            "width": 19,
+            "row_min": 4,
+            "row_max": 22,
+            "column_max": 647,
+            "column_min": 628,
+            "class": "ImageView",
+            "id": 0,
+            "height": 18
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/1.jpg",
+            "width": 12,
+            "row_min": 8,
+            "row_max": 20,
+            "column_max": 28,
+            "column_min": 16,
+            "class": "ImageView",
+            "id": 1,
+            "height": 12
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/2.jpg",
+            "width": 12,
+            "row_min": 8,
+            "row_max": 19,
+            "column_max": 50,
+            "column_min": 38,
+            "class": "ImageView",
+            "id": 2,
+            "height": 11
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/3.jpg",
+            "width": 11,
+            "row_min": 8,
+            "row_max": 19,
+            "column_max": 77,
+            "column_min": 66,
+            "class": "ImageView",
+            "id": 3,
+            "height": 11
+        },
+        {
+            "clip_path": "data/output/clips/Text/4.jpg",
+            "width": 49,
+            "row_min": 6,
+            "row_max": 17,
+            "column_max": 404,
+            "column_min": 355,
+            "class": "Text",
+            "id": 4,
+            "height": 11
+        },
+        {
+            "clip_path": "data/output/clips/Text/5.jpg",
+            "width": 28,
+            "row_min": 7,
+            "row_max": 18,
+            "column_max": 443,
+            "column_min": 415,
+            "class": "Text",
+            "id": 5,
+            "height": 11
+        },
+        {
+            "clip_path": "data/output/clips/Text/6.jpg",
+            "width": 75,
+            "row_min": 6,
+            "row_max": 17,
+            "column_max": 620,
+            "column_min": 545,
+            "class": "Text",
+            "id": 6,
+            "height": 11
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/7.jpg",
+            "width": 10,
+            "row_min": 8,
+            "row_max": 19,
+            "column_max": 678,
+            "column_min": 668,
+            "class": "ImageView",
+            "id": 7,
+            "height": 11
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/8.jpg",
+            "width": 8,
+            "row_min": 8,
+            "row_max": 17,
+            "column_max": 748,
+            "column_min": 740,
+            "class": "ImageView",
+            "id": 8,
+            "height": 9
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/9.jpg",
+            "width": 9,
+            "row_min": 8,
+            "row_max": 17,
+            "column_max": 784,
+            "column_min": 775,
+            "class": "ImageView",
+            "id": 9,
+            "height": 9
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/10.jpg",
+            "width": 13,
+            "row_min": 123,
+            "row_max": 643,
+            "column_max": 798,
+            "column_min": 785,
+            "class": "ImageView",
+            "id": 10,
+            "height": 520
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/11.jpg",
+            "width": 628,
+            "row_min": 135,
+            "row_max": 643,
+            "column_max": 706,
+            "column_min": 78,
+            "class": "ImageView",
+            "id": 11,
+            "height": 508
+        },
+        {
+            "clip_path": "data/output/clips/Text/12.jpg",
+            "width": 798,
+            "row_min": 27,
+            "row_max": 120,
+            "column_max": 798,
+            "column_min": 0,
+            "class": "Text",
+            "id": 12,
+            "height": 93
+        },
+        {
+            "clip_path": "data/output/clips/Text/13.jpg",
+            "width": 48,
+            "row_min": 60,
+            "row_max": 95,
+            "column_max": 507,
+            "column_min": 459,
+            "class": "Text",
+            "id": 13,
+            "height": 35
+        },
+        {
+            "clip_path": "data/output/clips/ImageView/14.jpg",
+            "width": 10,
+            "row_min": 444,
+            "row_max": 630,
+            "column_max": 796,
+            "column_min": 786,
+            "class": "ImageView",
+            "id": 14,
+            "height": 186
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "compos": [
+        {
+            "column_max": 108,
+            "column_min": 74,
+            "id": 1,
+            "row_max": 53,
+            "row_min": 44,
+            "spell_corrected_text": "test.|",
+            "text": "test.|"
+        },
+        {
+            "column_max": 116,
+            "column_min": 75,
+            "id": 2,
+            "row_max": 18,
+            "row_min": 7,
+            "spell_corrected_text": "- Noted",
+            "text": "- Notepad"
+        },
+        {
+            "column_max": 69,
+            "column_min": 28,
+            "id": 3,
+            "row_max": 17,
+            "row_min": 5,
+            "spell_corrected_text": "| *Untitled",
+            "text": "| *Untitled"
+        },
+        {
+            "column_max": 34,
+            "column_min": 9,
+            "id": 4,
+            "row_max": 53,
+            "row_min": 43,
+            "spell_corrected_text": "This",
+            "text": "This"
+        },
+        {
+            "column_max": 489,
+            "column_min": 457,
+            "id": 5,
+            "row_max": 483,
+            "row_min": 474,
+            "spell_corrected_text": "11, Col 1",
+            "text": "11, Col 1"
+        },
+        {
+            "column_max": 581,
+            "column_min": 560,
+            "id": 6,
+            "row_max": 483,
+            "row_min": 474,
+            "spell_corrected_text": "100%",
+            "text": "100%"
+        },
+        {
+            "column_max": 670,
+            "column_min": 601,
+            "id": 7,
+            "row_max": 483,
+            "row_min": 474,
+            "spell_corrected_text": "Windows (RL)",
+            "text": "Windows (CRLF)"
+        },
+        {
+            "column_max": 127,
+            "column_min": 105,
+            "id": 8,
+            "row_max": 37,
+            "row_min": 27,
+            "spell_corrected_text": "View",
+            "text": "View"
+        },
+        {
+            "column_max": 724,
+            "column_min": 697,
+            "id": 9,
+            "row_max": 483,
+            "row_min": 474,
+            "spell_corrected_text": "UTF-8",
+            "text": "UTF-8"
+        },
+        {
+            "column_max": 55,
+            "column_min": 36,
+            "id": 10,
+            "row_max": 37,
+            "row_min": 27,
+            "spell_corrected_text": "\u2018Edit",
+            "text": "\u2018Edit"
+        },
+        {
+            "column_max": 98,
+            "column_min": 65,
+            "id": 11,
+            "row_max": 36,
+            "row_min": 28,
+            "spell_corrected_text": "Format",
+            "text": "Format"
+        },
+        {
+            "column_max": 160,
+            "column_min": 139,
+            "id": 12,
+            "row_max": 38,
+            "row_min": 28,
+            "spell_corrected_text": "\u2018Help",
+            "text": "\u2018Help"
+        },
+        {
+            "column_max": 31,
+            "column_min": 9,
+            "id": 13,
+            "row_max": 38,
+            "row_min": 27,
+            "spell_corrected_text": "File\u201d",
+            "text": "File\u201d"
+        },
+        {
+            "column_max": 58,
+            "column_min": 40,
+            "id": 14,
+            "row_max": 54,
+            "row_min": 43,
+            "spell_corrected_text": "is",
+            "text": "is"
+        }
+    ]
+}
