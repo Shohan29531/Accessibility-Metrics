@@ -2,16 +2,13 @@ import json
 import os
 from cv2 import cv2
 import numpy as np
-import imutils
-import math
 from treelib import Node, Tree
 
 from sklearn import tree
-import graphviz
-import random
+
 import xml.etree.ElementTree as gfg
 import lxml.etree as etree
-import csv
+
 
 
 print("dom merger starting")

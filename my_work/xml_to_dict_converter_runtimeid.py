@@ -4,12 +4,10 @@ import json
 import os
 from cv2 import cv2
 import numpy as np
-import imutils
-import math
+
 from treelib import Node, Tree
 
 from sklearn import tree
-import random
 import lxml.etree as etree
 
 id_to_rect = {}
