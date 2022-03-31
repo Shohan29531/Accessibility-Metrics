@@ -71,6 +71,8 @@ cdf_hamming_arr = cumsum(pdf_hamming_arr)
 # show()
 
 
+
+
 count_fitts, bins_count_fitts = np.histogram(fitts, bins=1000)
 pdf_fitts = count_fitts / sum(count_fitts)
 cdf_fitts = np.cumsum(pdf_fitts)
@@ -79,6 +81,10 @@ count_hamming, bins_count_hamming = np.histogram(hamming, bins=1000)
 pdf_hamming = count_hamming / sum(count_hamming)
 cdf_hamming = np.cumsum(pdf_hamming)
   
+
+print(bins_count_fitts[1:], cdf_fitts)
+
+
 # plotting PDF and CDF
 # plt.plot(bins_count_fitts[1:], pdf_fitts, color="red", label="PDF")
 plt.plot(bins_count_fitts[1:], cdf_fitts, color= "red", label="fitts")
