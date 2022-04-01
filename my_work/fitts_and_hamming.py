@@ -988,8 +988,10 @@ print("Percentile at 3 move: ", total_3)
 print("Percentile at 4 move: ", total_4)
 print("Percentile at 5 moves: ", total_5)
 
+print("Hamm score at 5th percentile: ", value_at_percentile(count_dict["total_cum"], 0.05))
 print("Hamm score at 10th percentile: ", value_at_percentile(count_dict["total_cum"], 0.10))
 print("Hamm score at 20th percentile: ", value_at_percentile(count_dict["total_cum"], 0.20))
+print("Hamm score at 30th percentile: ", value_at_percentile(count_dict["total_cum"], 0.30))
 print("Hamm score at 50th percentile: ", value_at_percentile(count_dict["total_cum"], 0.50))
 
 

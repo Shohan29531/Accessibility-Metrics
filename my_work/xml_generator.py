@@ -17,7 +17,7 @@ def write_xml(all_lines, filename):
 
 
 
-file = open('../accessibility_api_files/word.log', encoding="utf8", errors='ignore')
+file = open('../accessibility_api_files/excel.log', encoding="utf8", errors='ignore')
 
 lines = file.read().splitlines()
 file.close()

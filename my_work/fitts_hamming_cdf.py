@@ -9,6 +9,7 @@ import pandas as pd
 import math
 
 
+app_name = "excel"
 
 output_folder = '../accessibility_api_files/output/'
 
@@ -82,13 +83,26 @@ pdf_hamming = count_hamming / sum(count_hamming)
 cdf_hamming = np.cumsum(pdf_hamming)
   
 
-print(bins_count_fitts[1:], cdf_fitts)
+# print(cdf_hamming)
 
 
 # plotting PDF and CDF
 # plt.plot(bins_count_fitts[1:], pdf_fitts, color="red", label="PDF")
+f = plt.figure()
 plt.plot(bins_count_fitts[1:], cdf_fitts, color= "red", label="fitts")
 plt.plot(bins_count_hamming[1:], cdf_hamming, color="blue", label="hamming")
 plt.legend()
 
-plt.show()
+# plt.show()
+f.savefig( app_name + ".pdf", bbox_inches='tight' )
+
+fitts_array = pd.DataFrame([bins_count_fitts[1:],cdf_fitts])
+fitts_array = fitts_array.T
+
+fitts_array.to_csv( app_name + "_fitts.csv")
+
+
+hamm_array = pd.DataFrame([bins_count_hamming[1:],cdf_hamming])
+hamm_array = hamm_array.T
+
+hamm_array.to_csv( app_name + "_hamm.csv")
