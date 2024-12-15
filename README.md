@@ -39,11 +39,10 @@ This repository provides the code and resources for our probabilistic model and 
 ---
 
 ## Installation
-git clone https://github.com/your-repo/Accessibility-Metrics.git
-cd Accessibility-Metrics
-python run_single.py 
-or
-python run_batch.py
+- git clone https://github.com/your-repo/Accessibility-Metrics.git
+- cd Accessibility-Metrics
+- python run_single.py 
+- python run_batch.py
 
 ## Citing 
 If you find the repo useful, please cite our paper:
