@@ -47,6 +47,7 @@ This repository provides the code and resources for our probabilistic model and 
 ## Citing 
 If you find the repo useful, please cite our paper:
 
+<pre>
 @inproceedings{islam2023probabilistic,
   title={A Probabilistic Model and Metrics for Estimating Perceived Accessibility of Desktop Applications in Keystroke-Based Non-Visual Interactions},
   author={Islam, Md Touhidul and Porter, Donald E and Billah, Syed Masum},
@@ -54,3 +55,4 @@ If you find the repo useful, please cite our paper:
   pages={1--20},
   year={2023}
 }
+</pre>
