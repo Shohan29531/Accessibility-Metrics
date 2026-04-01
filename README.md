@@ -8,68 +8,60 @@
 
 ## Overview
 
-Blind and low-vision users rely on screen readers and keyboards to navigate desktop applications. Yet how *accessible* a given application feels to those users — its **perceived accessibility** — has historically resisted quantification. This repository provides the full implementation of a probabilistic interaction model and three derived metrics that estimate perceived accessibility automatically, without requiring direct user involvement.
+Blind users navigate desktop applications exclusively through screen readers and keyboards. The logical structure of a UI — how elements are grouped and how many keystrokes are required to move between them — has an outsized effect on their experience. Yet there has been no principled, user-independent way to measure this.
 
-The work is grounded in a formative study with **11 blind participants**, which identified **low navigational complexity** — the average number of keystrokes required to move between UI elements — as the primary driver of whether users experience an application as accessible. The model and metrics operationalize this insight computationally.
-
----
-
-## Key Contributions
-
-### 1. Formative User Study
-A qualitative and quantitative study with 11 blind participants explored how they perceive accessibility while using screen readers and keyboards on everyday desktop applications. The study surfaces fine-grained factors that shape perceived accessibility, including application learnability, behavioral determinism of shortcuts, and ease of describing the interface to others.
-
-### 2. Probabilistic Interaction Model
-A probabilistic model of non-visual interaction is constructed from the application's logical UI element tree (analogous to a DOM). The model treats navigation as a random walk over UI elements and computes the expected number of keystrokes required to move between any two arbitrary elements, capturing realistic usage patterns through configurable probability distributions.
-
-### 3. Three Accessibility Metrics
-
-| Metric | Definition |
-|---|---|
-| **Complexity** | Average number of keystrokes needed to navigate between any two UI elements — a lower value indicates a more accessible layout. |
-| **Coverage** | The percentage of all possible UI transitions that are achievable within a specified keystroke budget. |
-| **Reachability** | The minimum number of keystrokes required to access a given percentage of an application's features. |
-
-Together, these three metrics provide a multidimensional profile of an application's navigational accessibility that correlates meaningfully with user-perceived accessibility scores.
-
-### 4. Benchmarking Suite
-The metrics are applied to **11 commonly used desktop applications**, producing a ranked benchmark that matches participant ratings from the user study and reveals concrete optimization targets for developers.
+This repository provides the implementation for a **probabilistic interaction model** and three derived **accessibility metrics** that quantify the perceived accessibility of desktop applications from their UI element hierarchy alone, without requiring direct user involvement.
 
 ---
 
 ## How It Works
 
-The pipeline proceeds in four stages:
+### Step 1 — UI Hierarchy Collection (Pre-collected `.log` files)
 
-```
-Screenshot(s) of UI
-        │
-        ▼
-┌─────────────────────┐
-│  1. Text Detection  │  EAST-based OCR detects text regions and groups
-│     (detect_text_east)│  words into lines and paragraphs
-└─────────────────────┘
-        │
-        ▼
-┌──────────────────────────┐
-│  2. UI Component Detection│  CNN-based region proposal detects non-text
-│     (detect_compo)        │  interactive elements (buttons, icons, etc.)
-└──────────────────────────┘
-        │
-        ▼
-┌────────────────────────────┐
-│  3. Merge & Representation │  Text and component detections are fused into
-│     (merge.py)             │  a unified JSON element representation
-└────────────────────────────┘
-        │
-        ▼
-┌──────────────────────────────────┐
-│  4. Metric Computation           │  Complexity, Coverage, and Reachability
-│     (my_work / result_processing)│  are computed from the element graph
-└──────────────────────────────────┘
-```
+The UI element hierarchies of target desktop applications were extracted using the **Windows Accessibility API** (via Microsoft's [Inspect tool](https://learn.microsoft.com/en-us/windows/win32/winauto/inspect-objects)), which exposes an application's logical element tree — the same representation that screen readers navigate. These hierarchy dumps are stored as `.log` files in `accessibility_api_files/`.
 
-The `accessibility_api_files/` directory contains supplementary scripts for extracting UI element hierarchies directly via the Windows Accessibility API (using Microsoft's Inspect tool), which can serve as an alternative to the vision-based pipeline for supported applications.
+Each `.log` file captures the full tree of UI elements (menus, buttons, ribbons, sub-menus, etc.) for a given application, encoding parent–child relationships and sibling ordering exactly as a screen reader would encounter them.
+
+### Step 2 — Navigation Cost Modeling
+
+From the UI element tree, the model computes the **navigation cost** — the number of keystrokes required for a screen reader user to move from one arbitrary UI element to another. Screen reader navigation is modeled as a sequential traversal of the element tree (e.g., via Tab and arrow keys), so the cost between any two elements is a function of their positions and relationships within the hierarchy.
+
+Two variants of the model are implemented:
+
+- **Uniform model**: Assumes a user is equally likely to want to navigate from any element to any other. This gives an unweighted baseline.
+- **Staircase model**: Weighted by user-reported usage frequency of different UI elements (e.g., how often a user accesses the "Format" menu). Frequencies are collected via a simple survey-style question and translated into a discrete staircase probability distribution, refining the model to better reflect realistic usage.
+
+### Step 3 — Metric Computation
+
+Three metrics are derived from the navigation cost model:
+
+| Metric | Definition |
+|---|---|
+| **Complexity** | The expected number of keystrokes to navigate between any two UI elements, averaged over the probability distribution of source–destination pairs. Lower is more accessible. |
+| **Coverage(k)** | The fraction of all possible UI element transitions achievable within a budget of *k* keystrokes. |
+| **Reachability(p)** | The minimum number of keystrokes required to reach at least *p*% of the application's UI elements from any starting point. |
+
+These metrics are computed in the Jupyter notebooks under `my_work/` and `mac_work/`, with results processed and visualized in `result_processing/` and `plotly_works/`.
+
+---
+
+## Applications Benchmarked
+
+The metrics were computed and validated across **11 commonly used desktop applications** in the blind community, including applications in the Microsoft Office suite, Notepad, Calculator, and others. Results are cross-referenced against perceived accessibility ratings collected from the 11 blind participants in the formative study.
+
+As a concrete example: Notepad has a complexity of **1.63 keystrokes** while Microsoft Word has a complexity of **3.51 keystrokes**, consistent with participant ratings placing Notepad as more accessible.
+
+---
+
+## Five Use Cases
+
+The paper demonstrates five concrete uses of the metrics:
+
+1. **Benchmarking** — Comparing perceived accessibility across similar applications (e.g., text editors, media players).
+2. **Shortcut Optimization** — Identifying which UI elements, if assigned a keyboard shortcut, would most reduce overall complexity.
+3. **Design Feedback** — Providing developers with actionable structural changes to reduce navigational complexity.
+4. **User Self-Assessment** — Helping blind users estimate the efficiency gain of learning application-specific shortcuts.
+5. **Accessibility Testing** — Integrating the metrics into automated testing pipelines as a proxy for user experience.
 
 ---
 
@@ -77,20 +69,14 @@ The `accessibility_api_files/` directory contains supplementary scripts for extr
 
 ```
 Accessibility-Metrics/
-├── run_single.py               # Process a single application screenshot
-├── run_batch.py                # Batch-process multiple screenshots
-├── merge.py                    # Fuse OCR and component detection outputs
-├── detect_text_east/           # EAST-based text detection module
-├── detect_compo/               # CNN-based UI component detection module
-├── cnn/                        # Trained CNN classifier for UI elements
-├── accessibility_api_files/    # Windows Accessibility API extraction scripts
-├── my_work/                    # Metric computation notebooks and scripts
-├── result_processing/          # Post-processing and analysis of metric outputs
-├── plotly_works/               # Visualization of metric results
-├── input/                      # Input screenshots (populate before running)
-├── data/                       # Output directory for detection results
-├── config/                     # Configuration files
-├── utils/                      # Shared utility functions
+├── accessibility_api_files/    # Pre-collected UI element hierarchy .log files
+│                               # (extracted via Windows Accessibility API / Inspect)
+├── my_work/                    # Jupyter notebooks: metric computation (Windows apps)
+├── mac_work/                   # Jupyter notebooks: metric computation (macOS apps)
+├── result_processing/          # Post-processing and statistical analysis of results
+├── plotly_works/               # Interactive visualizations of metric outputs
+├── data/                       # Intermediate data files
+├── data.txt                    # List of benchmarked applications
 └── requirements.txt            # Python dependencies
 ```
 
@@ -98,47 +84,22 @@ Accessibility-Metrics/
 
 ## Installation & Usage
 
-### Prerequisites
-- Python 3.7+
-- OpenCV
-- TensorFlow / Keras (for CNN classifier)
-
-### Setup
-
 ```bash
 git clone https://github.com/Shohan29531/Accessibility-Metrics.git
 cd Accessibility-Metrics
 pip install -r requirements.txt
 ```
 
-### Running on a Single Application
-
-1. Place screenshot(s) of the target application in the `input/` directory.
-2. Run the pipeline:
-
-```bash
-python run_single.py
-```
-
-Detection outputs (OCR JSON, component JSON, merged representation) are written to `data/output/`.
-
-### Running in Batch Mode
-
-```bash
-python run_batch.py
-```
-
-Processes all images in the configured input directory sequentially.
-
-### Computing Metrics
-
-After the detection pipeline completes, use the notebooks and scripts in `my_work/` and `result_processing/` to compute Complexity, Coverage, and Reachability scores from the merged element representations.
+To compute metrics for a new application:
+1. Use Microsoft's [Inspect tool](https://learn.microsoft.com/en-us/windows/win32/winauto/inspect-objects) to dump the application's UI element hierarchy as a `.log` file and place it in `accessibility_api_files/`.
+2. Open the relevant notebook in `my_work/` and point it to your `.log` file.
+3. Run the notebook to compute Complexity, Coverage, and Reachability scores.
 
 ---
 
 ## Citation
 
-If you use this code or build on this work, please cite the paper:
+If you use this code or build on this work, please cite:
 
 ```bibtex
 @inproceedings{islam2023probabilistic,
@@ -155,18 +116,3 @@ If you use this code or build on this work, please cite the paper:
   url       = {https://doi.org/10.1145/3544548.3581400}
 }
 ```
-
----
-
-## Related Work
-
-This project is part of an ongoing line of accessibility research at the [A11y Lab, Penn State University](https://a11y.ist.psu.edu/). Related projects include:
-
-- **Wheeler** — A novel three-wheeled input device for BLV users that reduces navigation time by 40% (UIST 2024, Best Paper Honorable Mention)
-- **SpaceXMag** — Layout-aware screen magnification for low-vision users (IMWUT 2023)
-
----
-
-## License
-
-This repository is provided for research and academic use. Please refer to the [ACM publication](https://dl.acm.org/doi/full/10.1145/3544548.3581400) for full details of the methods described herein.
